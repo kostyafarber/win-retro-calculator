@@ -1,0 +1,14 @@
+.button-container {
+    place-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 600px;
+    grid-gap: 10px;
+
+    button {
+        color: #0000ff;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
